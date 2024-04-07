@@ -22,9 +22,9 @@
 
 INCLUDE(GenerateExportHeader)
 
-IF(LIBEVENT_VERSION VERSION_LESS "2.1")
-  MESSAGE(FATAL_ERROR "At least version 2.1 is needed for libevent.")
-ENDIF()
+#IF(LIBEVENT_VERSION VERSION_LESS "2.1")
+#  MESSAGE(FATAL_ERROR "At least version 2.1 is needed for libevent.")
+#ENDIF()
 
 ADD_LIBRARY(http_common
   SHARED

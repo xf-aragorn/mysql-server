@@ -27,3 +27,8 @@ heatwaveml.*
 automl.egg-info/
 _userconf.sh
 scalability_jobs_*
+clion-cmake-build-debug/
+build/
+clion_build/
+CMakeFiles/
+archive_output_directory/
